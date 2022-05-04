@@ -1,6 +1,5 @@
 # Challenge Data Engineer
 
-You can find the challenge [here](challenge.md)
 
 ## Prerequisites 
 
