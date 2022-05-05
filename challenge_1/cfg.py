@@ -5,4 +5,4 @@ ROOT_DIR = Path().resolve().parent
 
 config = AutoConfig(ROOT_DIR)
 
-URL = config('URL')
+URL = config("URL")
