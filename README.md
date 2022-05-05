@@ -15,7 +15,7 @@ To get the activities answers in the terminal, you need to move to the challenge
 $ cd challenge_1
 $ python main.py
 ```
-And if you want to get the response of some specific activity (2,3,4,5 or 6) then execute
+And if you want to get the answer of some specific activity (2,3,4,5 or 6) then execute
 ```
 $ python main.py --activity {number}
 ```
