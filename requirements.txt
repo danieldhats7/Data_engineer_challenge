@@ -1,5 +1,6 @@
-requests == 2.27.1
-pandas == 1.4.2
-SQLAlchemy == 1.4.36
-psycopg2 == 2.9.3
-click == 8.1.3
+requests
+pandas
+SQLAlchemy
+click
+python-decouple
+psycopg2-binary

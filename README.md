@@ -28,7 +28,7 @@ python main.py --activity 3
 ### Setup database
 Before executing the queries, you need to set up the database with docker
 ```
-docker run -d --name challenge_de -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -e POSTGRES_DB=postgres postgres
+docker run -d --name challenge_de -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -e POSTGRES_DB=challenge_db postgres
 ```
 You need to move to the challenge_2 folder and create the tables and load the data
 ```
