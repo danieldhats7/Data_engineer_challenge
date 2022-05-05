@@ -6,7 +6,7 @@ You can find the challenge [here](https://github.com/danieldhats7/Data_engineer_
 You need to install all dependencies for the project:
 ```
 virtualenv env
-source env/Script/activate
+source env/bin/activate
 pip install -r requirements.txt
 ```
 ## Challenge 1
@@ -53,5 +53,5 @@ docker exec -it challenge_pg psql -U postgres
 
 - [ ] Implementar Airflow para la automatizacion de las actividades en el challenge 1.
 - [ ] Cambiar los Prints por log para tener un mejor registro en el challenge 2.
-
+- [ ] Unit testing
 
