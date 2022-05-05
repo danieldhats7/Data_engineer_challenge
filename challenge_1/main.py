@@ -35,12 +35,12 @@ def actividad_6(questions):
 
 @click.command()
 @click.option(
-    "--actividad",
+    "--activity",
     default="6",
     type=click.Choice(["2", "3", "4", "5", "6"]),
-    help="Actividad a realizar",
+    help="Activity to run",
 )
-def run(actividad):
+def run(activity):
     actividades = {
         "2": actividad_2,
         "3": actividad_3,
@@ -49,7 +49,7 @@ def run(actividad):
         "6": actividad_6,
     }
     questions = Stackoverflow_questions(URL)
-    actividades[actividad](questions)
+    actividades[activity](questions)
 
 
 if __name__ == "__main__":
