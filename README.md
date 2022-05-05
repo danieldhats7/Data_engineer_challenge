@@ -10,12 +10,12 @@ $ source env/Script/activate
 $ pip install -r requirements.txt
 ```
 ## Challenge 1
-To get the activities answers in the terminal, we need to move to the challenge_1 folder and run the following command to get the activity answers (activity 6 answer by default)
+To get the activities answers in the terminal, you need to move to the challenge_1 folder and run the following command to get the activity answers (activity 6 answer by default)
 ```
 $ cd challenge_1
 $ python main.py
 ```
-And if we want to get the response of some specific activity (2,3,4,5 or 6) then we execute
+And if you want to get the response of some specific activity (2,3,4,5 or 6) then execute
 ```
 $ python main.py --activity {number}
 ```
@@ -26,17 +26,17 @@ $ python main.py --activity 3
 ## Challenge 2
 
 ### Setup database
-Before executing the queries, we need to set up the database with docker
+Before executing the queries, you need to set up the database with docker
 ```
 $ docker run -d --name challenge_de -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -e POSTGRES_DB=postgres postgres
 ```
-We need to move to the challenge_2 folder and create the tables and load the data
+You need to move to the challenge_2 folder and create the tables and load the data
 ```
 $ cd challenge_2
 $ python setup_db.py
 ```
 ### Querys on data base
-To query and answer the questions (1,2,3 or 4) execute
+To query for answers the questions (1,2,3 or 4) execute
 ```
 $ python query_db.py {number}
 ```
